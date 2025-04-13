@@ -1,0 +1,18 @@
+
+<main>
+  <h2>Create New Study Note</h2>
+  <form id="noteForm">
+    <input type="text" id="title" placeholder="Title" required />
+    <textarea id="description" placeholder="Description" required></textarea>
+    <select id="priority">
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
+    <input type="text" id="tags" placeholder="Tags (comma separated)" />
+    <input type="file" id="upload" />
+    <button type="submit">Save Note</button>
+  </form>
+  <p id="message"></p>
+</main>
+<script type="module" src="js/create.js"></script>
